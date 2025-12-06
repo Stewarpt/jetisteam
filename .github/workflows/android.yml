@@ -1,10 +1,7 @@
 name: Android CI
 
 on:
-  push:
-    branches: [ "cobalt" ]
-  pull_request:
-    branches: [ "cobalt" ]
+  workflow_dispatch:
 
 jobs:
   build:
